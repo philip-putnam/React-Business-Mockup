@@ -2,10 +2,10 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className='Header'>
-      <span className='hamburger' />
+    <nav className='navbar Header'>
+      <span className='glyphicon glyphicon-align-justify' />
       <h3>Strex Corp.</h3>
-    </div>
+    </nav>
   )
 };
 

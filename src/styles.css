@@ -1,15 +1,26 @@
-body {
+html, body, #root, .App, div {
   margin: 0;
+  height: 100%;
 }
 
 h3 {
   margin: 0;
-  padding: 1em;
 }
 
 .Header {
   margin: 0;
-  height: 75px;
+  height: 65px;
   color: white;
   background-color: black;
+}
+
+.leftNav {
+  height: 100%;
+  width: 230px;
+  background-color: lightgray;
+}
+
+.leftNav-links {
+  list-style: none;
+  padding: 8px;
 }
