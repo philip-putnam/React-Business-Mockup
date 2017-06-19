@@ -3,8 +3,9 @@ html, body, #root, .App, div {
   height: 100%;
 }
 
-h3 {
+h4 {
   margin: 0;
+  margin-top: 8px;
 }
 
 .Header {
@@ -15,12 +16,23 @@ h3 {
 }
 
 .leftNav {
+  display: block;
+  position: relative;
   height: 100%;
   width: 230px;
-  background-color: lightgray;
+  padding-left: 33px;
+  padding: 13px 0 13px 15px;
+  font-size: 14px;
+  color: #555;
+  background-color: #ececec;
+  border-top: 1px solid #dfdfdf;
+  text-decoration: none;
 }
 
 .leftNav-links {
   list-style: none;
-  padding: 8px;
+}
+
+.fa {
+  margin-right: 8px;
 }
